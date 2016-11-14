@@ -1,10 +1,10 @@
 {
   "name": "Fork-it-fake-api",
   "version": "1.0.0",
-  "description": "서버 시작 ```shell json-server --watch db.json(서버파일) ```",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "json-server -watch db.json",
+    "serve": "json-server db.json --watch",
     "start": "npm run serve"
   },
   "repository": {
@@ -16,7 +16,7 @@
   },
   "keywords": ["fake", "api"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/teamyummy/Fork-it-fake-api/issues"
   },

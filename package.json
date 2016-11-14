@@ -1,0 +1,24 @@
+{
+  "name": "Fork-it-fake-api",
+  "version": "1.0.0",
+  "description": "서버 시작 ```shell json-server --watch db.json(서버파일) ```",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server -watch db.json",
+    "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jinhoyim@github.com/teamyummy/Fork-it-fake-api.git"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.0"
+  },
+  "keywords": ["fake", "api"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamyummy/Fork-it-fake-api/issues"
+  },
+  "homepage": "https://github.com/teamyummy/Fork-it-fake-api#readme"
+}
